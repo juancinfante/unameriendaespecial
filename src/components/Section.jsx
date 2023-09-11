@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import '../css/section.css'
 import logo2 from '../assets/logo2.png'
 export const Section = ({ name , id}) => {
