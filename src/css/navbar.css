@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Merienda';
+    font-size: 14px;
+    font-weight: 500;
+}
+nav img{
+    width: 120px;
+}
+nav ul{
+    display: flex;padding-top: 15px;
+    list-style: none;
+
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    margin-right: 50px;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: #62d0cd;
+    transition: all 0.5s ease;
+}
+
+.menu{
+    display: none;
+}
+
+/* OFFCANVAS NAVBAR */
+
+.offcanvas-navbar{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Merienda';
+}
+.offcanvas-navbar ul{
+    text-align: center;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.offcanvas-navbar ul a{
+    text-decoration: none;
+    color: #000;
+}
+@media screen and (max-width: 990px) {
+    nav{
+        justify-content: space-between;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        padding-right: 15px;
+        display: block;
+    }
+    .menu:hover{
+        cursor: pointer;
+    }
+    nav img{
+        padding-left: 15px;
+    }
+  }

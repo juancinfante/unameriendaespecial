@@ -1,0 +1,21 @@
+.section{
+    font-family: 'Merienda';
+    padding: 60px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.section h1{
+    font-size: 4rem;
+}
+@media screen and (max-width: 476px){
+    .section h1{
+        font-size: 3rem;
+    }
+} 

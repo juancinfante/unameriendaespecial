@@ -1,0 +1,50 @@
+.container-banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.txt-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merienda';
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt-banner span{
+    font-size: 4.3rem;
+    font-weight: 600;
+}
+.txt-banner p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 990px){
+    .txt-banner span{
+        font-size: 3rem;
+    }
+    .txt-banner p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 476px){
+    .txt-banner span{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .txt-banner p{
+        text-align: center;
+    }
+}
