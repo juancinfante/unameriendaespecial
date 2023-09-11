@@ -16,7 +16,7 @@ function App() {
     <>
       <NavBar />
       <Banner />
-      <Section name="Nosotros" id="nosotros" />
+      <Section name="NNOSOTROS" id="nosotros" />
       <div className="article-container">
         <img src={img1} alt="" />
         <div className="article-txt">
