@@ -101,7 +101,7 @@ function App() {
           <p>
             Una vez finalizado el evento nos encargaremos del retirado y lavado de vajilla.
           </p>
-          <p>VALOR POR PERSONA $1000</p>
+          
           <div className='wpp'>
             <button className='btn-wpp'>
               <a href="https://www.wa.link/274q6n" target='blank'>
